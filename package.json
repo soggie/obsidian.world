@@ -1,0 +1,43 @@
+{
+  "name": "obsidian-world",
+  "version": "0.0.1",
+  "description": "This is the website along with backoffice management for obsidian world",
+  "main": "dist/server/index.js",
+  "scripts": {
+    "test": "gulp test",
+    "server": "dist/bin/run",
+    "webpack": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/soggie/obsidianworld.git"
+  },
+  "keywords": [],
+  "author": "Ruben Tan",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/soggie/obsidianworld/issues"
+  },
+  "homepage": "https://obsidian.world",
+  "dependencies": {
+    "debug": "^2.3.2",
+    "koa": "^1.2.4",
+    "koa-static": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-es2016": "^6.22.0",
+    "babel-preset-es2017": "^6.22.0",
+    "gulp": "^3.9.1",
+    "gulp-ava": "^0.15.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-chmod": "^2.0.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-filter": "^5.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-shell": "^0.5.2",
+    "gulp-standard": "git://github.com/soggie/gulp-standard.git",
+    "webpack": "^2.2.1"
+  }
+}

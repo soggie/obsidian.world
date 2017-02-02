@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+const path = require('path')
+process.env.DEBUG = '*'
+require(path.resolve(__dirname, '..', 'server')).listen(process.env.PORT || 3000)
