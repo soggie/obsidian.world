@@ -7,9 +7,4 @@ const app = koa()
 
 app.use(serve(path.resolve(__dirname, '..', 'public')))
 
-if (require.main === module) {
-  debug(`Listening on port`)
-  app.listen(3000)
-} else {
-  module.exports = app
-}
+module.exports = app
